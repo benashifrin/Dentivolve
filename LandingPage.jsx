@@ -147,6 +147,16 @@ const LandingPage = () => {
       <section id="features" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
+            <div className="mb-8">
+              <iframe
+                className="w-full max-w-md mx-auto aspect-video rounded-2xl shadow-lg"
+                src="https://www.youtube.com/embed/FFq4TSbEMbg"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               Everything you need to grow through referrals
             </h2>
