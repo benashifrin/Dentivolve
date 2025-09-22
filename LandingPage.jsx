@@ -284,7 +284,7 @@ const LandingPage = () => {
             Ready to grow your practice?
           </h2>
           <p className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
-            Join over 500+ dental practices that have increased new patient acquisition by 300% with Dentivolve.
+            Increase your new patient acquisition by 300% with Dentivolve's powerful referral platform.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-slate-900 bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white transition-all duration-200 transform hover:scale-105">
