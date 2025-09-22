@@ -47,6 +47,12 @@ const LandingPage = () => {
     setIsSubmitting(false);
   };
 
+  const scrollToForm = () => {
+    document.getElementById('contact-form').scrollIntoView({ 
+      behavior: 'smooth' 
+    });
+  };
+
   return (
     <div className="min-h-screen bg-gray-50" style={{ backgroundColor: '#f6f7f9' }}>
       {/* Header */}
@@ -83,7 +89,7 @@ const LandingPage = () => {
 
             {/* CTA Button */}
             <div className="flex items-center space-x-4">
-              <button className="hidden sm:inline-flex items-center px-6 py-2 border border-transparent text-sm font-medium rounded-full text-white bg-slate-900 hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-900 transition-all duration-200">
+              <button onClick={scrollToForm} className="hidden sm:inline-flex items-center px-6 py-2 border border-transparent text-sm font-medium rounded-full text-white bg-slate-900 hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-900 transition-all duration-200">
                 Request Demo
               </button>
               
@@ -116,7 +122,7 @@ const LandingPage = () => {
             </p>
             
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <button className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-white bg-slate-900 hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-900 transition-all duration-200 transform hover:scale-105">
+              <button onClick={scrollToForm} className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-white bg-slate-900 hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-900 transition-all duration-200 transform hover:scale-105">
                 Request a Demo
                 <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -324,7 +330,7 @@ const LandingPage = () => {
 
 
       {/* Contact Form Section */}
-      <section className="py-20 bg-slate-900">
+      <section id="contact-form" className="py-20 bg-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
