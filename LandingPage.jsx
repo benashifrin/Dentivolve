@@ -337,7 +337,7 @@ const LandingPage = () => {
               <div className="order-2 lg:order-1">
                 <div className="relative">
                   <img
-                    src="/src/founder.jpg"
+                    src="/founder.jpg"
                     alt="Ben Shifrin, Founder of Dentivolve"
                     className="w-full max-w-md mx-auto rounded-2xl shadow-lg"
                   />
@@ -351,25 +351,17 @@ const LandingPage = () => {
                     About the Founder
                   </span>
                   <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-                    Built by a dentist, for dentists
+                    Built from real practice experience
                   </h2>
                 </div>
                 
                 <div className="space-y-4 text-lg text-gray-600 leading-relaxed">
                   <p>
-                    Hi, I'm Ben Shifrin. With an engineering focus and hands-on experience in dental practice management, 
-                    I developed Dentivolve right in our office to solve the real challenges we faced 
-                    with patient referrals.
-                  </p>
-                  <p>
-                    After witnessing firsthand how difficult it was to systematically encourage and 
-                    track patient referrals, I built this platform to automate what was previously 
-                    a manual, inconsistent process. The result? A 300% increase in new patient 
-                    acquisition through referrals.
+                    Hi, I'm Ben Shifrin. With an engineering focus, I developed Dentivolve in our office 
+                    to solve the real challenges we faced with patient referrals.
                   </p>
                   <p className="font-medium text-gray-900">
-                    Dentivolve isn't just another software solution—it's a proven system born from 
-                    real practice experience and engineered for results.
+                    The result? A 300% increase in new patient acquisition through referrals.
                   </p>
                 </div>
               </div>
