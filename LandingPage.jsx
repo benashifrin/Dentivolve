@@ -82,9 +82,6 @@ const LandingPage = () => {
               <a href="#security" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
                 Security
               </a>
-              <a href="#pricing" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
-                Pricing
-              </a>
             </nav>
 
             {/* CTA Button */}
@@ -115,10 +112,10 @@ const LandingPage = () => {
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 tracking-tight">
               Grow Your Practice
-              <span className="block text-slate-900">Through Referrals</span>
+              <span className="block text-slate-900">With AI-Powered Campaigns</span>
             </h1>
             <p className="mt-6 max-w-3xl mx-auto text-lg sm:text-xl text-gray-600 leading-relaxed">
-              Transform your existing patients into your biggest advocates. Our referral platform helps dental practices increase new patient acquisition by 300% through automated referral campaigns.
+              Transform your practice growth with intelligent marketing campaigns that automatically identify, target, and convert ideal patients. Our AI creates personalized outreach that drives consistent new patient acquisition.
             </p>
             
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -143,7 +140,7 @@ const LandingPage = () => {
       <section className="relative -mt-8 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            {/* Referral Sent Card */}
+            {/* AI Campaign Launched Card */}
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-200">
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center space-x-3">
@@ -153,14 +150,14 @@ const LandingPage = () => {
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                     </svg>
                   </div>
-                  <span className="text-sm font-medium text-gray-900">Referral Sent</span>
+                  <span className="text-sm font-medium text-gray-900">AI Campaign Launched</span>
                 </div>
                 <span className="text-xs text-gray-500">2 min ago</span>
               </div>
-              <p className="text-xs text-gray-600">Sarah Johnson referred 3 friends to your practice</p>
+              <p className="text-xs text-gray-600">Targeted 250 prospects in your area with personalized messaging</p>
             </div>
 
-            {/* New Patient Booked Card */}
+            {/* Campaign Response Card */}
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-200">
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center space-x-3">
@@ -169,14 +166,14 @@ const LandingPage = () => {
                       <path d="M8 9a3 3 0 100-6 3 3 0 000 6zM8 11a6 6 0 016 6H2a6 6 0 016-6zM16 7a1 1 0 10-2 0v1h-1a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V7z" />
                     </svg>
                   </div>
-                  <span className="text-sm font-medium text-gray-900">New Patient</span>
+                  <span className="text-sm font-medium text-gray-900">Campaign Response</span>
                 </div>
                 <span className="text-xs text-gray-500">5 min ago</span>
               </div>
-              <p className="text-xs text-gray-600">Mike Chen booked from Jennifer's referral link</p>
+              <p className="text-xs text-gray-600">Mike Chen responded to AI email and booked consultation</p>
             </div>
 
-            {/* Reward Earned Card */}
+            {/* AI Optimization Card */}
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow duration-200">
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center space-x-3">
@@ -185,11 +182,11 @@ const LandingPage = () => {
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                   </div>
-                  <span className="text-sm font-medium text-gray-900">Reward Earned</span>
+                  <span className="text-sm font-medium text-gray-900">AI Optimized</span>
                 </div>
                 <span className="text-xs text-gray-500">8 min ago</span>
               </div>
-              <p className="text-xs text-gray-600">Jennifer earned $50 credit for successful referral</p>
+              <p className="text-xs text-gray-600">Campaign messaging automatically improved based on responses</p>
             </div>
           </div>
         </div>
@@ -199,21 +196,11 @@ const LandingPage = () => {
       <section id="features" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="mb-8">
-              <iframe
-                className="w-full max-w-md mx-auto aspect-video rounded-2xl shadow-lg"
-                src="https://www.youtube.com/embed/FFq4TSbEMbg"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
-            </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Everything you need to grow through referrals
+              Everything you need for AI-powered campaigns
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our comprehensive referral platform transforms your satisfied patients into powerful advocates, driving consistent new patient growth.
+              Our intelligent campaign platform automatically creates, launches, and optimizes marketing efforts that target the right patients with personalized messaging at the perfect time.
             </p>
           </div>
 
@@ -226,9 +213,9 @@ const LandingPage = () => {
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Automated Campaigns</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Smart Targeting</h3>
               <p className="text-gray-600 leading-relaxed">
-                Send personalized referral requests to satisfied patients at the perfect moment through email, SMS, and in-app notifications.
+                AI analyzes demographics, health patterns, and local trends to identify your ideal patients and automatically target them with precision-crafted campaigns.
               </p>
             </div>
 
@@ -239,9 +226,9 @@ const LandingPage = () => {
                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Reward System</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Personalized Messaging</h3>
               <p className="text-gray-600 leading-relaxed">
-                Motivate patients with customizable rewards like account credits, gift cards, or exclusive perks for successful referrals.
+                Generate compelling, personalized messages for each prospect using AI that understands patient needs, concerns, and communication preferences.
               </p>
             </div>
 
@@ -252,9 +239,9 @@ const LandingPage = () => {
                   <path fillRule="evenodd" d="M12 7a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0V8.414l-4.293 4.293a1 1 0 01-1.414 0L8 10.414l-4.293 4.293a1 1 0 01-1.414-1.414l5-5a1 1 0 011.414 0L11 10.586 14.586 7H12z" clipRule="evenodd" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Tracking & Analytics</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Campaign Automation</h3>
               <p className="text-gray-600 leading-relaxed">
-                Monitor referral performance with detailed analytics showing referral sources, conversion rates, and ROI metrics.
+                Launch multi-channel campaigns across email, SMS, and social media that run automatically, adjusting timing and frequency for maximum engagement.
               </p>
             </div>
 
@@ -265,9 +252,9 @@ const LandingPage = () => {
                   <path fillRule="evenodd" d="M18 13V5a2 2 0 00-2-2H4a2 2 0 00-2 2v8a2 2 0 002 2h3l3 3 3-3h3a2 2 0 002-2zM5 7a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1zm1 3a1 1 0 100 2h3a1 1 0 100-2H6z" clipRule="evenodd" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Social Sharing</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Continuous Learning</h3>
               <p className="text-gray-600 leading-relaxed">
-                Enable easy social media sharing with branded templates and trackable links across Facebook, Instagram, and Google Reviews.
+                AI continuously learns from campaign performance, automatically testing new approaches and optimizing messaging for better response rates and conversions.
               </p>
             </div>
           </div>
@@ -279,10 +266,10 @@ const LandingPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              How Dentivolve works
+              How AI-powered campaigns work
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Transform your patients into referral champions with our simple three-step process.
+              Transform your patient acquisition with intelligent campaigns that work around the clock to grow your practice automatically.
             </p>
           </div>
 
@@ -296,9 +283,9 @@ const LandingPage = () => {
                 <div className="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-6 relative z-10 shadow-lg">
                   <span className="text-2xl font-bold text-white">1</span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Setup Your Campaign</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Setup & Target</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Connect your practice management system and customize your referral rewards, messaging, and branding in minutes.
+                  Connect your systems and let AI identify your ideal patient profiles, then automatically build targeted prospect lists in your local market.
                 </p>
               </div>
 
@@ -307,9 +294,9 @@ const LandingPage = () => {
                 <div className="w-20 h-20 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-6 relative z-10 shadow-lg">
                   <span className="text-2xl font-bold text-white">2</span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Engage Happy Patients</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Launch Campaigns</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Automatically identify satisfied patients and send personalized referral invitations at the optimal moment after appointments.
+                  AI creates personalized messaging and launches multi-channel campaigns that automatically reach prospects at optimal times with compelling offers.
                 </p>
               </div>
 
@@ -318,9 +305,9 @@ const LandingPage = () => {
                 <div className="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-6 relative z-10 shadow-lg">
                   <span className="text-2xl font-bold text-white">3</span>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Watch Referrals Flow</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Optimize & Scale</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Track new patient bookings, reward loyal advocates, and monitor your referral ROI through comprehensive analytics.
+                  Watch as AI continuously improves campaign performance, learns from responses, and scales successful messaging to drive more appointments.
                 </p>
               </div>
             </div>
@@ -358,10 +345,10 @@ const LandingPage = () => {
                 <div className="space-y-4 text-lg text-gray-600 leading-relaxed">
                   <p>
                     Hi, I'm Ben Shifrin. With an engineering focus, I developed Dentivolve in our office 
-                    to solve the real challenges we faced with patient referrals.
+                    to solve the challenge of consistently attracting new patients through intelligent marketing campaigns.
                   </p>
                   <p className="font-medium text-gray-900">
-                    The result? A 300% increase in new patient acquisition through referrals.
+                    The result? AI-powered campaigns that automatically generate 3x more patient inquiries with personalized, targeted messaging.
                   </p>
                 </div>
               </div>
@@ -375,10 +362,10 @@ const LandingPage = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-              Ready to grow your practice?
+              Ready to launch AI-powered campaigns?
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Get started with Dentivolve today and increase your new patient acquisition by 300%.
+              Get started with Dentivolve today and let intelligent campaigns automatically attract your ideal patients with personalized messaging.
             </p>
           </div>
 
@@ -472,68 +459,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {/* Logo and description */}
-            <div className="col-span-2 md:col-span-1">
-              <div className="flex items-center mb-4">
-                <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                  <svg className="w-5 h-5 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" clipRule="evenodd" />
-                  </svg>
-                </div>
-                <span className="ml-3 text-xl font-bold text-white">Dentivolve</span>
-              </div>
-              <p className="text-gray-400 text-sm leading-relaxed">
-                Growing dental practices through powerful referral campaigns and patient advocacy programs.
-              </p>
-            </div>
-
-            {/* Product */}
-            <div>
-              <h3 className="text-white font-semibold mb-4">Product</h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Features</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Pricing</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Integrations</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">API</a></li>
-              </ul>
-            </div>
-
-            {/* Company */}
-            <div>
-              <h3 className="text-white font-semibold mb-4">Company</h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">About</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Careers</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Press</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Contact</a></li>
-              </ul>
-            </div>
-
-            {/* Support */}
-            <div>
-              <h3 className="text-white font-semibold mb-4">Support</h3>
-              <ul className="space-y-3">
-                <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Help Center</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Documentation</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Status</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-800 mt-12 pt-8">
-            <div className="flex flex-col md:flex-row justify-between items-center">
-              <p className="text-gray-400 text-sm">
-                © 2024 Dentivolve. All rights reserved.
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };
