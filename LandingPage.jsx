@@ -348,7 +348,7 @@ const LandingPage = () => {
                     to solve the challenge of consistently attracting new patients through intelligent marketing campaigns.
                   </p>
                   <p className="font-medium text-gray-900">
-                    The result? AI-powered campaigns that automatically generate 3x more patient inquiries with personalized, targeted messaging.
+                    The result? AI-powered campaigns that automatically generate more qualified patient inquiries with personalized, targeted messaging.
                   </p>
                 </div>
               </div>
