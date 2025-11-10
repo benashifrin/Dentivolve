@@ -79,9 +79,6 @@ const LandingPage = () => {
               <a href="#how-it-works" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
                 How it works
               </a>
-              <a href="#security" className="text-gray-700 hover:text-gray-900 font-medium transition-colors">
-                Security
-              </a>
             </nav>
 
             {/* CTA Button */}
